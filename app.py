@@ -1,5 +1,3 @@
-pip install joblib
-
 import pandas as pd
 import joblib
 from sklearn.svm import SVC
