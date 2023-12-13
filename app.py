@@ -10,6 +10,7 @@ from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet
 
 nltk.download('punkt')
+nltk.download('stopwords')
 
 lemmatizer = WordNetLemmatizer()
 
