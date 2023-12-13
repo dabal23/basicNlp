@@ -9,6 +9,8 @@ from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet
 
+nltk.download('punkt')
+
 lemmatizer = WordNetLemmatizer()
 
 # create a function to extract part of speech (POS)
