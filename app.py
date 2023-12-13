@@ -45,7 +45,7 @@ def clean_text(text):
 
 st.header('Tweet disaster detection')
 st.write('This project is one of our assigment to do nlp related project. This is detecting wheter the tweet is disaster or not. This model is using bag of words vectorizer and SVM model')
-
+st.write('This app is only for me to learn to deploy simple ml app on streamlit')
 
 st.subheader('How to use?')
 st.write('Paste the tweet in the textbox or write anything on text box, then click enter')
@@ -61,8 +61,8 @@ user_input = [" ".join(user_input)]
 
 data = bow_vectorizer.transform(user_input)
 predict = model.predict(data)
-status = ['That sentence is disaster related sentence' if i ==
-          1 else 'That sentence is NOT disaster related sentence' for i in predict]
+status = ['That sentence is disaster related 🔥🔥 sentence' if i ==
+          1 else 'That sentence is NOT disaster related 😅😅 sentence' for i in predict]
 
 
 # Display the entered text
